@@ -1,0 +1,18 @@
+import java.util.Scanner; 
+ 
+class Main { 
+ public static void main(String[] args) { 
+ Scanner dados = new Scanner(System.in); 
+ 
+ int num1; 
+ 
+ System.out.print("Informe o número: "); 
+ num1 = dados.nextInt(); 
+ 
+ do{ 
+ num1-= 1; 
+ System.out.println(num1); 
+ }while(num1>0); 
+ 
+ } 
+} 
